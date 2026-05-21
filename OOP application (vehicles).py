@@ -30,3 +30,5 @@ class HyperCar(Car):
     
   def get_info(self):        
    return f"{super().get_info()} and a top speed of {self.top_speed} mph"
+
+car1 = ElectricCar("BYD", "Seal", 2025, 4, 82)
